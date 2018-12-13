@@ -1,0 +1,29 @@
+body
+{
+    background-color: lightskyblue;
+}
+main
+{
+    margin: 200px auto auto auto;
+    width: 300px;
+    height: 500px;
+    background-color: royalblue;
+    text-align: center;
+}
+input
+{
+    margin: 10px ;
+    width: 200px;
+    height: 40px;
+}
+#header
+{
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+input:hover
+{
+    background-color: black;
+    color: white;
+}

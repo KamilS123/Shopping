@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "kasza",
+      "description": "sypka i fajna",
+      "price": 10.0,
+      "quantity": 15
+    },
+    {
+      "id": 2,
+      "name": "Baton 3Bit",
+      "description": "ciastko, karmel, czekolada",
+      "price": 3.0,
+      "quantity": 27
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "stecalbert",
+      "password": "12345678",
+      "totalCashSpend": 3900,
+      "name": "Albert",
+      "surname": "Stec",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "bonaventura",
+      "password": "qwerty1234",
+      "totalCashSpend": 100,
+      "name": "Janusz",
+      "surname": "Kowalski",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": null,
+      "password": null,
+      "totalCashSpend": 0,
+      "name": null,
+      "surname": null,
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "KamilSuperson",
+      "password": "Kamil",
+      "totalCashSpend": 0,
+      "name": "Kamil",
+      "surname": "Superson",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "username": null,
+      "password": null,
+      "totalCashSpend": 0,
+      "name": null,
+      "surname": null,
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "username": "Marek",
+      "password": "Marek",
+      "totalCashSpend": 0,
+      "name": "Marek",
+      "surname": "Marek",
+      "role": "user"
+    }
+  ],
+  "id": 0,
+  "username": null,
+  "password": null,
+  "totalCashSpend": 0,
+  "name": null,
+  "surname": null,
+  "role": null
+}

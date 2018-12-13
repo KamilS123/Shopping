@@ -1,0 +1,51 @@
+body
+{
+    background-color: beige;
+}
+td
+{
+    border: 3px solid black;
+
+}
+#tab
+{
+    margin: 100px auto auto auto;
+}
+#header
+{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Unlock', cursive;
+
+}
+#add
+{
+    width: 100%;
+    border: none;
+}
+#thInProduct
+{
+    background-color: lightskyblue;
+}
+#tab
+{
+    width: 80%;
+}
+#outFormBtn
+{
+    width: 150px;
+    height: 50px;
+    margin: 30px auto auto auto;
+}
+#logOutBtn
+{
+    background-color: burlywood;
+    width: 150px;
+    height: 50px;
+    font-weight: 900;
+}
+#logOutBtn:hover
+{
+    background-color: olive;
+    transition: All 1s;
+}
