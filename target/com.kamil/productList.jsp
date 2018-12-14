@@ -36,17 +36,20 @@
         for(Product product : lisWithProducts) {
     %>
     <tr>
-        <td><%=product.getId()%></td>
+        <td id="id"><%=product.getId()%></td>
         <td><%=product.getName()%></td>
         <td><%=product.getDescription()%></td>
         <td><%=product.getPrice()%></td>
         <td><%=product.getQuantity()%></td>
-        <td><input id="add" type="submit" value="Add"/></td>
+        <td><form action="ShoppingCart" method="post"><input id="add" type="submit" value="Add"/></form></td>
     </tr>
     <%}%>
 </table>
+    <form id="outFormBtn" action="ShoppingCart" method="post">
+        <input class="logOutBtn" type="submit" value="Go to my cart"/>
+    </form>
     <form id="outFormBtn" action="LogoutServlet" method="post">
-        <input id="logOutBtn" type="submit" value="Log out"/>
+        <input class="logOutBtn" type="submit" value="Log out"/>
     </form>
 </body>
 </html>

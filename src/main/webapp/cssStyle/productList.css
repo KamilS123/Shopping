@@ -21,6 +21,7 @@ td
 #add
 {
     width: 100%;
+    height: 100%;
     border: none;
 }
 #thInProduct
@@ -37,7 +38,7 @@ td
     height: 50px;
     margin: 30px auto auto auto;
 }
-#logOutBtn
+.logOutBtn
 {
     background-color: burlywood;
     width: 150px;
@@ -49,3 +50,4 @@ td
     background-color: olive;
     transition: All 1s;
 }
+
