@@ -1,19 +1,21 @@
 body
 {
     background-color: beige;
+    font-family: 'Unlock', cursive;
 }
 #header
 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 40px;
+
 }
 #forms
 {
     margin-right: auto;
     margin-left: auto;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     text-align: center;
 }
 .inp

@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
 
         //warunek, jeśli Obiekt User zawiera elementy z listy userów to przenies do webIntro.jsp, jesli nie są takie same to wyswietl czerwony komunikat Wrong data
         Boolean isLoginOk = false;
-        for (User user : listOfUsers) {
+        for (User user : usersAndProducts.getUsers()) {
             if (name!=null & name.equals(user.getName()) && surname!=null & surname.equals(user.getSurname()) && password!=null & password.equals(user.getPassword())) {
                 Cookie cookie = new Cookie("user_cookie",name);
                 cookie.setMaxAge(15*60);
@@ -55,7 +55,7 @@ public class LoginServlet extends HttpServlet {
                 isLoginOk = true;
             }
             if(!isLoginOk) {
-                RequestDispatcher rd = req.getRequestDispatcher("/log.jsp");
+                RequestDispatcher rd = req.getRequestDispatcher("log.jsp");
                 resp.getWriter()
                         .println("<font color=red> Wrong data </font>");
 

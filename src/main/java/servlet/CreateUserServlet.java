@@ -30,7 +30,7 @@ public class CreateUserServlet extends HttpServlet {
 
         //odczyt danych
         ObjectMapper mapper = new ObjectMapper();
-        InputStream inStream = getServletContext().getResourceAsStream(path);
+        //InputStream inStream = getServletContext().getResourceAsStream(path);
         UsersAndProducts usersAndProducts = mapper.readValue(new FileInputStream(path), UsersAndProducts.class);
 
         //utworzenie listy z urzytkownikami i produktami
